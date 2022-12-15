@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+    background-color: #C4C4C4;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 50px 0 0 350px;
+    background-color: #E6E6E6;
+}
+
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.block{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FC8F8F;
+    width: 200px;
+    padding: 63px 0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Container 1 */
+
+.container1_block1{
+    float: left;
+}
+
+.container1_block2{
+    float: right;
+}
+
+/* Container 2 */
+
+.container2{
+    float: left;
+}
+
+.container .group{
+    float: right;
+}
+
+.container .group div{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FC8F8F;
+    width: 100px;
+    padding: 31px 0;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 15px;
+}
+
+.container .group div:last-child{
+    margin-right: 0;
+}
+
+/* Container 3 */
+
+.container3_block1{
+    float: left;
+}
+
+.container3_block2{
+    float: right;
+}
+
+.container3_block1 div{
+    display: inline-block;
+}
+.container3_block2 div{
+    display: inline-block;
+}
+
+.container3_block1 .item1{
+    margin-right: 15px;
+}
+
+.container3_block2 .item3{
+    margin-right: 15px;
+}
